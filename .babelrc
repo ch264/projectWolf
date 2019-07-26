@@ -1,0 +1,19 @@
+
+
+{
+  "presets": [
+		// in order to use react
+    ["@babel/preset-env", { "useBuiltIns": "entry" }],
+    ["@babel/preset-react"],
+],
+  "plugins":[
+		// extra plugins: 
+      ["transform-es2015-spread"],
+      ["@babel/plugin-proposal-decorators", { "legacy": true }],
+      ["@babel/plugin-proposal-class-properties", { "loose": true }],
+      ["@babel/plugin-proposal-object-rest-spread"],
+			["@babel/plugin-transform-async-to-generator"],
+			// code splitting
+      ["@babel/plugin-syntax-dynamic-import"],
+  ]
+}
