@@ -9,7 +9,7 @@ const rootNode = document.querySelector('#root');
 const App = () => {
 	return (
 		<div>
-			finally!
+			<h1>FINALLY</h1>
 		</div>
 	)
 
