@@ -9,14 +9,9 @@ const config = {
     output: {
         filename: '[name].bundle.js',
         chunkFilename: '[name].bundle.js',
-        path: path.join(__dirname, './dist'),
+        path: path.join(__dirname, './server/public'),
     },
-        devtool: 'inline-source-map',
-        devServer: {
-        contentBase: path.join(__dirname, './dist'),
-        compress: true,
-        port: 3000,
-    },
+    devtool: 'inline-source-map',
     module: {
         rules: [{
             test: /\.js$/,
