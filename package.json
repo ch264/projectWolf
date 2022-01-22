@@ -63,7 +63,7 @@
     "apollo-cache-inmemory": "^1.6.2",
     "apollo-server": "^2.7.1",
     "graphql-import": "^0.7.1",
-    "nanoid": "^2.0.3",
+    "nanoid": "^3.1.31",
     "nodemon": "^1.19.1",
     "preact": "^8.4.2",
     "preact-compat": "^3.19.0",
