@@ -33,7 +33,7 @@
     "core-js": "2",
     "cors": "^2.8.5",
     "css-loader": "^2.1.1",
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "express-graphql": "^0.8.0",
     "file-loader": "^3.0.1",
     "graphql": "^14.3.1",
